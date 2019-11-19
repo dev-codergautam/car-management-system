@@ -1,0 +1,15 @@
+[30-Oct-2019 07:55:19 UTC] PHP Fatal error:  Call to a member function get_data() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/controllers/Home.php on line 31
+[30-Oct-2019 07:57:20 UTC] PHP Fatal error:  Call to a member function get_data() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/controllers/Home.php on line 31
+[30-Oct-2019 08:00:04 UTC] PHP Fatal error:  Call to a member function get_data() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/controllers/Home.php on line 31
+[30-Oct-2019 08:01:31 UTC] PHP Fatal error:  Call to a member function get_data() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/controllers/Home.php on line 31
+[30-Oct-2019 08:02:00 UTC] PHP Fatal error:  Call to a member function get_data() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/controllers/Home.php on line 31
+[30-Oct-2019 08:03:16 UTC] PHP Fatal error:  Call to a member function get_data() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/controllers/Home.php on line 31
+[30-Oct-2019 08:04:12 UTC] PHP Fatal error:  Call to a member function get_data() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/controllers/Home.php on line 31
+[30-Oct-2019 08:08:54 UTC] PHP Fatal error:  Call to a member function get_data() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/controllers/Home.php on line 31
+[30-Oct-2019 08:13:31 UTC] PHP Fatal error:  Call to a member function get_data() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/views/includes/navbar.php on line 167
+[30-Oct-2019 13:46:32 Asia/Calcutta] PHP Fatal error:  Call to a member function get_data() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/views/dealer/include/sidebar.php on line 2
+[30-Oct-2019 13:47:15 Asia/Calcutta] PHP Fatal error:  Call to a member function get_id() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/views/dealer/page/main.php on line 14
+[30-Oct-2019 13:48:53 Asia/Calcutta] PHP Fatal error:  Call to a member function get_id() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/views/dealer/page/active-car.php on line 39
+[30-Oct-2019 13:49:30 Asia/Calcutta] PHP Fatal error:  Call to a member function get_id() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/views/dealer/page/view-car.php on line 18
+[30-Oct-2019 13:53:47 Asia/Calcutta] PHP Fatal error:  Call to a member function get_data() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/views/admin/include/sidebar.php on line 2
+[30-Oct-2019 15:08:14 Asia/Calcutta] PHP Fatal error:  Call to a member function get_id() on a non-object in /home/webnirma/public_html/skulam.com/demo/application/views/admin/page/active-car.php on line 41

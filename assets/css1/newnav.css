@@ -1,0 +1,209 @@
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+    max-width: 1168px
+}
+
+.secondaryHeading {
+    font-size: 26px;
+    font-weight: 500;
+    display: block;
+    text-align: left
+}
+
+.homeHeader {
+    position: relative;
+    z-index: 4;
+}
+
+.mobileMenu {
+    width: 38px;
+    display: block;
+    margin-left: 0px;
+    margin-right: -8px;
+    font-size: 22px;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 6px;
+    padding-bottom: 14px;
+    color: white;
+    font-weight: 500;
+    height: 50px;
+    z-index: 6;
+    float: left;
+    cursor: pointer;
+}
+
+.mobileMenu::after {
+    position: absolute;
+    top: 12px;
+    /* left: 0px; */
+    right: 0;
+    width: 45px;
+    height: 15px;
+    content: "\f0c9";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+    color: #000;
+    /* font-size: 18px; */
+    padding-right: 0.5em;
+}
+
+.footer {
+    overflow: hidden
+}
+
+.footer .footerHeading,
+.footer .checkCallers {
+    display: none
+}
+
+.footer .footerHeading {
+    display: none
+}
+
+.footer .footerHeading.ypFooterHeading {
+    display: block
+}
+
+.footerNavBlocks {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 260px;
+    bottom: 0;
+    background-color: white;
+    z-index: 1030;
+    color: #333;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-transform: translate(0%, 0%);
+    -ms-transform: translate(0%, 0%);
+    -o-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+    -webkit-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+}
+
+.footerNavBlocks.mobHide {
+    -webkit-transform: translate(-110%, 0%);
+    -ms-transform: translate(-110%, 0%);
+    -o-transform: translate(-110%, 0%);
+    transform: translate(-110%, 0%);
+    -webkit-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease
+}
+
+.footerNavList {
+    display: block;
+    padding: 0px;
+}
+
+.footerNavList li {
+    display: block
+}
+
+.footerNavList li.mobileShow {
+    display: block
+}
+
+.footerNavList li.desktopShow {
+    display: none
+}
+
+.footerNavList li a {
+    color: #333;
+    position: relative;
+    padding: 10px 30px 10px 26px;
+    display: block;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.footerNavList li a:hover {
+    text-decoration: none;
+    color: #fff;
+    opacity: .8;
+    background: #0fb9b1;
+}
+
+.ypFooterHeading {
+    /* margin-top: 25px; */
+    display: block;
+    background-color: #ebebeb;
+    position: relative;
+    padding: 12px 12px 12px 15px;
+    color: #333;
+}
+
+.overlayMobNav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 92;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer
+}
+
+body.noScroll {
+    overflow: hidden
+}
+
+.scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    font-size: 0;
+    overflow: hidden;
+    z-index: 5;
+    border-radius: 1000px;
+    -webkit-transform: translateX(150%);
+    -ms-transform: translateX(150%);
+    -o-transform: translateX(150%);
+    transform: translateX(150%);
+    -webkit-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease
+}
+
+.scrollToTop.show {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease
+}
+
+.scrollToTop::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-left: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    left: 13px;
+    top: 15px;
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg)
+}
+
+.scrollToTop:hover {
+    background-color: #000
+}
